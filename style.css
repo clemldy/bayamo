@@ -1,0 +1,99 @@
+body {
+background-color:#2f2f2f;
+color : white;
+}
+
+.red {
+  color:       #C7182F;
+  font-weight: 800
+}
+
+
+header .intro-text .intro-heading {
+    font-family:    'Didact Gothic', sans-serif;
+    text-transform: uppercase;
+    font-weight:    700;
+    font-size:      60px;
+    line-height:    75px;
+    margin-bottom:  50px;
+}
+
+@media (max-width: 767px){
+    header .intro-text .intro-heading{
+        font-size: 35px ;
+        line-height: 35px;
+    }
+}
+
+.container .rhum ul{
+    padding :0px;
+}
+
+@media (max-width: 767px){
+    .container .rhum ul{
+    padding :0px;
+}
+}
+
+header .container .intro-text {
+    padding-top: 150px;
+    padding-bottom: 550px;
+}
+
+@media (max-width: 767px){
+    header .container .intro-text {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}}
+
+/* COOKIE */
+.cookie {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 7px 20px;
+  text-align: center;
+  color: #666;
+  font-size: 0.9em;
+  background-color: #F2F2F2;
+  border-top: 1px solid #E4E4E4;
+}
+
+.cookie a {
+  text-decoration: underline;
+  color: #4B76F2;
+}
+
+.cookie a:hover {
+  text-decoration: none;
+}
+
+.cookie_btn {
+  display: inline;
+  margin-left: 15px;
+  padding: 4px 10px;
+  color: #FFF;
+  cursor: pointer;
+  background-color: #666;
+  -webkit-transition: color .2s,border-color .2s,background .2s;
+  transition-property: color, border-color, background;
+  transition-duration: 0.2s, 0.2s, 0.2s;
+  transition-timing-function: ease, ease, ease;
+  transition-delay: 0s, 0s, 0s;
+}
+
+.cookie_btn:hover {
+  background-color: #4B76F2;
+}
+
+.cookie_cancel:hover{
+  background-color: #D84765;
+}
+
+.section-subheading {
+  color: white;
+}
+.text-muted{
+  color: white;
+}

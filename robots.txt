@@ -1,0 +1,15 @@
+
+User-agent: *
+
+Disallow: /Services
+Disallow: /KausabanOfficiel
+
+Disallow: /Ressource/*
+Disallow: /AddNewUser
+Disallow: /addProductInBascket
+Disallow: /changeUserPassword
+Disallow: /Connexion
+Disallow: /redirectPageWithLanguage
+
+
+Sitemap:  http://www.comptoirrhum.fr/sitemap.xml
