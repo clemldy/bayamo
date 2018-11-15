@@ -370,10 +370,13 @@ aside.clients img {
   margin:50px auto
 }
 section#contact {
-  background-color:#222;background-image:url(../img/map-image.png);background-position:center;background-repeat:no-repeat
+  background-color:    #F2F2F2;
+  background-image:    url(../img/map-image.png);
+  background-position: center;
+  background-repeat:   no-repeat
 }
 section#contact .section-heading {
-  color:#fff
+  color: black
 }
 section#contact .form-group {
   margin-bottom:25px
@@ -391,22 +394,25 @@ section#contact .form-control:focus {
   border-color:var(--main-color);box-shadow:none
 }
 section#contact ::-webkit-input-placeholder {
-  font-family:'Ubuntu', sans-serif;text-transform:uppercase;font-weight:700;color:#eee
+  font-family:'Ubuntu', sans-serif;text-transform:uppercase;font-weight:700;color: grey
 }
 section#contact :-moz-placeholder {
-  font-family:'Ubuntu', sans-serif;text-transform:uppercase;font-weight:700;color:#eee
+  font-family:'Ubuntu', sans-serif;text-transform:uppercase;font-weight:700;color: grey
 }
 section#contact ::-moz-placeholder {
-  font-family:'Ubuntu', sans-serif;text-transform:uppercase;font-weight:700;color:#eee
+  font-family:'Ubuntu', sans-serif;text-transform:uppercase;font-weight:700;color: grey
 }
 section#contact :-ms-input-placeholder {
-  font-family:'Ubuntu', sans-serif;text-transform:uppercase;font-weight:700;color:#eee
+  font-family:'Ubuntu', sans-serif;text-transform:uppercase;font-weight:700;color: grey
 }
 section#contact .text-danger {
   color:#e74c3c
 }
 footer {
-  padding:25px 0;text-align:center
+  padding:          25px 0;
+  text-align:       center;
+  background-color: black;
+  color:            white;
 }
 footer span.copyright {
   line-height:40px;text-transform:uppercase;text-transform:none
@@ -418,7 +424,18 @@ ul.social-buttons {
   margin-bottom:0
 }
 ul.social-buttons li a {
-  display:block;background-color:#222;height:40px;width:40px;border-radius:100%;font-size:20px;line-height:40px;color:#fff;outline:0;-webkit-transition:all .3s;-moz-transition:all .3s;transition:all .3s
+  display:block;
+  background-color:#222;
+  height:40px;
+  width:40px;
+  border-radius:100%;
+  font-size:20px;
+  line-height:40px;
+  color:#fff;
+  outline:0;
+  -webkit-transition:all .3s;
+  -moz-transition:all .3s;
+  transition:all .3s
 }
 ul.social-buttons li a:active,ul.social-buttons li a:focus,ul.social-buttons li a:hover {
   background-color:var(--main-color)
