@@ -166,26 +166,9 @@
     </section>
 
     <!-- Map Section -->
-    <div id="map" style="width:100%;height:400px;"></div>
-
-    <script>
-      function initMap() {
-        var uluru = {lat: 45.774240, lng:  4.779956};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 17,
-          center: uluru,
-          scrollwheel: false
-        });
-
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
-        });
-      }
-    </script>
-
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key= AIzaSyDoxTD854YwaN3tYPJKNkK-ak_YtP3r2Q4&callback=initMap"
-    type="text/javascript"></script>
+    <div id="map">
+      <img src="img/casa-bayamo-carte.png" style="width: 100%;">
+    </div>
 
     <!-- Contact Section -->
     <section id="contact">
