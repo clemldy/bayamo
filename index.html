@@ -41,13 +41,10 @@
               <a href="#page-top"></a>
             </li>
             <li>
-              <a class="page-scroll" href="#rhum">Nos Bouteilles</a>
-            </li>
-            <li>
               <a class="page-scroll" href="#formules">Nos Parfums</a>
             </li>
             <li>
-              <a class="page-scroll" href="#map">Nous Trouver</a>
+              <a class="page-scroll" href="#rhum">Nos Bouteilles</a>
             </li>
             <li>
               <a class="page-scroll" href="#contact">Contact</a>
@@ -79,42 +76,6 @@
         </div>
       </div>
     </header>
-
-    <!-- rhum Section -->
-    <section id="rhum">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Nos bouteilles</h2>
-          </div>
-        </div>
-
-        <div class="container rhum">
-
-          <div class="col-xs-12 col-md-6">
-            <h4 class="service-heading">La grande <span class="red">25 €</span></h4>
-            <ul>
-              <span class="red">50 cl :</span> un petit commentaire
-              <br><br>
-              <br><br>
-              <img src="img/bayamo-bottle-03.png" style="width: 80%;">
-            </ul>
-          </div>
-
-          <div class="col-xs-12 col-md-6">
-            <h4 class="service-heading">El pac de seis <span class="red">69 €</span></h4>
-            <ul>
-              <span class="red">6 X 20 cl :</span> un petit commentaire
-              <br><br>
-              <br><br>
-              <img src="img/bayamo-bottle-03.png" style="width: 80%;">
-            </ul>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
   <!-- rhum formule Section -->
     <section id="formules">
       <div class="container">
@@ -134,7 +95,6 @@
             <span>Anis & Muscade</span>
           </ul>
         </div>
-
         <div class="col-xs-12 col-md-4">
           <h4 class="red service-heading">Con Frutas</h4>
           <ul>
@@ -143,7 +103,6 @@
             <span>Banane & Cannelle</span>
           </ul>
         </div>
-
         <div class="col-xs-12 col-md-4">
           <h4 class="red service-heading">Plantas</h4>
           <ul>
@@ -154,7 +113,36 @@
         </div>
       </div>
     </section>
-
+    <!-- rhum Section -->
+    <section id="rhum">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Nos bouteilles</h2>
+          </div>
+        </div>
+        <div class="container rhum">
+          <div class="col-xs-12 col-md-6">
+            <h4 class="service-heading">La grande <span class="red">25 €</span></h4>
+            <ul>
+              <span class="red">50 cl :</span> un petit commentaire
+              <br><br>
+              <br><br>
+              <img src="img/bayamo-bouteille-01.jpg" style="width: 60%;">
+            </ul>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <h4 class="service-heading">El pac de tres <span class="red">69 €</span></h4>
+            <ul>
+              <span class="red">3 X 50 cl :</span> un petit commentaire
+              <br><br>
+              <br><br>
+              <img src="img/bayamo-bouteille-03.jpg" style="width: 90%;">
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Contact Section -->
     <section id="contact">
       <div class="container">
@@ -166,25 +154,25 @@
         </div>
         <div class="row">
           <div class="col-lg-12">
-            <form name="contactform" id="contactForm" method="post" action="contact_me.php" novalidate>
+            <form name="contactform" id="contactForm" method="post" action="https://formspree.io/contact@casa-bayamo.com" novalidate>
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Votre Nom *" id="name" required data-validation-required-message="S'il vous plaît entrez votre nom.">
+                    <input type="text" name="name" class="form-control" placeholder="Votre Nom *" id="name" required data-validation-required-message="S'il vous plaît entrez votre nom.">
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
-                    <input type="email" class="form-control" placeholder="Votre Email *" id="email" required data-validation-required-message="S'il vous plaît entrez votre adresse email.">
+                    <input type="email" name="email" class="form-control" placeholder="Votre Email *" id="email" required data-validation-required-message="S'il vous plaît entrez votre adresse email.">
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
-                    <input type="tel" class="form-control" placeholder="Votre Téléphone *" id="phone" required data-validation-required-message="S'il vous plaît entrez votre numéro de téléphone.">
+                    <input type="tel" name="phone" class="form-control" placeholder="Votre Téléphone *" id="phone" required data-validation-required-message="S'il vous plaît entrez votre numéro de téléphone.">
                     <p class="help-block text-danger"></p>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <textarea class="form-control" placeholder="Votre Message *" id="message" required data-validation-required-message="S'il vous plaît entrez votre message."></textarea>
+                    <textarea class="form-control" name= "message" placeholder="Votre Message *" id="message" required data-validation-required-message="S'il vous plaît entrez votre message."></textarea>
                     <p class="help-block text-danger"></p>
                   </div>
                 </div>
