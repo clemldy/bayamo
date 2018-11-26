@@ -12,4 +12,4 @@ Disallow: /Connexion
 Disallow: /redirectPageWithLanguage
 
 
-Sitemap:  http://www.comptoirrhum.fr/sitemap.xml
+Sitemap:  http://www.casa-bayamo.com/sitemap.xml
